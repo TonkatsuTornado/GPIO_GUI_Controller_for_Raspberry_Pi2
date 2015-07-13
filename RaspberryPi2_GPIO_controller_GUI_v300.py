@@ -153,7 +153,10 @@ def init(): #initializing function
 	return 0;
 
 
-def finalize():#Finalize function (this will be called when EXIT button is pressed. )
+#Finalize function
+# (this will be called when the window is closed or EXIT button is pressed. )
+def finalize():
+
 	LED_OFF_ALL()
 	GPIO.cleanup()
 	sys.exit()
@@ -702,9 +705,12 @@ lable_webshop_adress.place(x = 22, y = 355)
 root.mainloop()
 
 
+#---------------------------------------
+#============ Finalize =================
+finalize()
 
-#===================================
 
+#---------------------------------------
 
 
 ######################################
