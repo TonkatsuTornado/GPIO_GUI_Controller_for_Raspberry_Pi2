@@ -29,7 +29,7 @@ Since this program is made from Python and Tkinter, We think Raspbian can run it
     IO20	s		IO19	w  
     IO16	d		IO13	e  
     IO12	f		IO6		r  
-    IO7   g   IO5   t
+    IO7  g  IO5  t
     IO8 	h		IO11	y  
     IO25	j		IO9		u  
     IO24	k		IO10	i  
@@ -37,10 +37,10 @@ Since this program is made from Python and Tkinter, We think Raspbian can run it
     IO18	b		IO27	p  
     IO15	n		IO17	@  
     IO14	m		IO4		7  
-              IO3   8  
-              IO2   9	  
+            IO3  8  
+            IO2  9	  
     Mode change : Shift + each key  
-    Quite       : ESC  
+    Quit        : ESC  
 
 
 
